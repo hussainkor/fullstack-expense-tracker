@@ -1,8 +1,8 @@
 import axios from "axios";
 
-//const API_URL = `https://pern-stack-expense-tracker-youtube.onrender.com/api-v1`;
+const API_URL = `https://fullstack-expense-tracker-ssiy.onrender.com/api`;
 
-const API_URL = "http://localhost:8080/api";
+//const API_URL = "http://localhost:8080/api";
 
 const api = axios.create({
   baseURL: API_URL,
